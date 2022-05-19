@@ -1,13 +1,13 @@
 ## 🚀 Quick start
 
-  **JOBOARDS USING API LEVER**
+  #### JOBOARDS USING API LEVER
   - This project is made with gatsby,
   - You need node >= 12,
   - Intall Gatsby on your local computer,
   - Run `cp .env.example .env.development`,
   - Run `yarn install && yarn develop`.
 
-  **JOBOARDS PROJECT ARCHITECTURE**
+  #### JOBOARDS PROJECT ARCHITECTURE
   
   This project is build with gatsby a react SSG (Static-site generation)  framework. I choose gatsby because is fast and fit with the need for this project. Having static genration make sense in this projects since we don't have too much content changes and few API calls we make. Is also practical for cost and need less ressources than other framework. This is our the project is design:
   - components: Here we find components (which we can call modules here), that will be use in container. The can be use in many components,
