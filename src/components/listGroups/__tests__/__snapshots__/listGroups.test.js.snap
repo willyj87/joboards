@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListGroups renders ListGroups correctly 1`] = `
+<div
+  className="list-group list-group-flush"
+  onKeyDown={[Function]}
+>
+  <button
+    className="d-flex justify-content-between align-items-start list-group-item active list-group-item-action"
+    data-rr-ui-event-key="0"
+    onClick={[Function]}
+  >
+    <div
+      className="me-auto"
+      data-testid="all-test"
+    >
+      all
+    </div>
+    <span
+      className="badge rounded-pill bg-primary"
+      data-testid="all-test-badge"
+      variant="success"
+    >
+      4
+    </span>
+  </button>
+  <button
+    className="d-flex justify-content-between align-items-start list-group-item list-group-item-action"
+    data-rr-ui-event-key="Business Intelligence & Machine Learning_1234"
+    data-testid="Business Intelligence & Machine Learning"
+    onClick={[Function]}
+  >
+    <div
+      className="me-auto"
+    >
+      Business Intelligence & Machine Learning
+    </div>
+    <span
+      className="badge rounded-pill bg-primary"
+      data-testid="Business Intelligence & Machine Learning-badge"
+      variant="success"
+    />
+  </button>
+</div>
+`;

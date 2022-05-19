@@ -1,0 +1,35 @@
+html {
+    body {
+        font-family: $font;
+        background-image: $background;
+        h1,h2,h3,h4,h5,h6 {
+            font-weight: Bold;
+        }
+        h1,h2 {
+            color: $light;
+        }
+        span {
+            font-style: italic;
+        }
+        .btn {
+            margin: 0 1em;
+            background-color: $cyan;
+            color: whitesmoke;
+            font-weight: bold;
+            border: none;
+            box-shadow: 1em 0.8em 0.8em gainsboro;
+            padding: 0.5em;
+            &:hover {
+                box-shadow: none;
+                background-color: $cyan;
+                color: whitesmoke;
+            }
+        }
+        .d-r {
+            display: flex;
+        }
+        .j-c {
+            justify-content: center;
+        }
+    }
+}
